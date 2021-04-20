@@ -160,52 +160,6 @@ nb_path: "00_core.ipynb"
 </div>
     {% endraw %}
 
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>nbdev_build_lib
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-<div class="output_area">
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>Traceback (most recent call last):
-  File &#34;/home/tu/anaconda3/envs/ml/bin/nbdev_build_lib&#34;, line 8, in &lt;module&gt;
-    sys.exit(nbdev_build_lib())
-  File &#34;/home/tu/anaconda3/envs/ml/lib/python3.8/site-packages/fastcore/script.py&#34;, line 105, in _f
-    tfunc(**merge(args, args_from_prog(func, xtra)))
-  File &#34;/home/tu/anaconda3/envs/ml/lib/python3.8/site-packages/nbdev/export2html.py&#34;, line 461, in nbdev_build_lib
-    write_tmpls()
-  File &#34;/home/tu/anaconda3/envs/ml/lib/python3.8/site-packages/nbdev/export2html.py&#34;, line 452, in write_tmpls
-    write_tmpl(config_tmpl, &#39;user lib_name title copyright description recursive&#39;, cfg, path/&#39;_config.yml&#39;)
-  File &#34;/home/tu/anaconda3/envs/ml/lib/python3.8/site-packages/nbdev/export2html.py&#34;, line 443, in write_tmpl
-    vs = {o:cfg.d[o] for o in nms.split()}
-  File &#34;/home/tu/anaconda3/envs/ml/lib/python3.8/site-packages/nbdev/export2html.py&#34;, line 443, in &lt;dictcomp&gt;
-    vs = {o:cfg.d[o] for o in nms.split()}
-  File &#34;/home/tu/anaconda3/envs/ml/lib/python3.8/configparser.py&#34;, line 1254, in __getitem__
-    raise KeyError(key)
-KeyError: &#39;copyright&#39;
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
 </div>
  
 
